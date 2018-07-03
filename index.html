@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8">
+		<title>TODO Application</title>
+		<link rel="stylesheet" href="app.min.css">
+	</head>
+	<body>
+		<div class="todo-app">
+			<div class="todo-app__header">
+				<h1>First TODO list</h1>
+			</div>
+			<div class="todo-app__body">
+				<div class="todo-app__element">
+					<input type="checkbox" />
+					<span>Zrob zakupy</span>
+					<a href="" class="todo-app__close-button" data-element="task-close-button">x</a>
+				</div>
+				<div class="todo-app__element">
+					<input type="checkbox" />
+					<span>Kup auto</span>
+					<a href="" class="todo-app__close-button" data-element="task-close-button">x</a>
+				</div>
+				<div class="todo-app__element todo-app__element--close">
+					<input type="checkbox" />
+					<span>Posprzątaj pokoj</span>
+					<a href="" class="todo-app__close-button" data-element="task-close-button">x</a>
+				</div>
+			</div>
+			<div class="todo-app__control">
+				<span>Filter:</span>
+				<a href="" class="todo-app__button" data-status="all">All</a>
+				<a href="" class="todo-app__button" data-status="active">Active</a>
+				<a href="" class="todo-app__button" data-status="closes">Closes</a>
+			</div>
+		</div>
+		<script type="text/javascript" src="app.js"></script>
+	</body>
+</html>
